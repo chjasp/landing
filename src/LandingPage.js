@@ -58,6 +58,8 @@ const BigInput = styled.input`
   height: 5vh;
   width: 30vh;
   max-width: 300px;
+  padding: 1rem;
+  border-radius: 0.8rem;
   font-size: 1.3rem;
 
   @media(max-width: 460px) {
@@ -69,16 +71,27 @@ const StyledInp = styled.input`
   color: white !important;
   text-align: center;
   background-color: transparent;
-  border: 2px solid white;
   height: 5vh;
   font-size: 1.3rem;
   width: 10vh;
+  border-radius: 1rem;
+  background-image: linear-gradient(
+    to right,
+    #ef2779 0%,
+    #b42d9b 51%,
+    #7834be 100%
+  );
 
   &:hover {
-    background-color: white;
-    color: #0a0227 !important;
-    -webkit-transition: background-color 0.3s;
-    -webkit-transition: color 0.3s;
+    background-image: linear-gradient(
+      to right,
+      #ef2779 0%,
+      #b42d9b 51%,
+      #7834be 100%
+    );
+      color: white;
+      box-shadow: 0px 13px 16px -13px #ef2779;
+    }
   }
 
   @media(max-width: 560px) {

@@ -21,8 +21,5 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(${({ bg }) => bg});
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: #252B42;
 `;
